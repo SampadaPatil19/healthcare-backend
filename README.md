@@ -39,6 +39,7 @@ healthcare_backend/
 
 ```
 ## 🚀 Getting Started
+```
 ---
 ## 1. Clone the Repository
 git clone https://github.com/<your-username>/healthcare-backend.git
