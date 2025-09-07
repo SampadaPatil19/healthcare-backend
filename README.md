@@ -47,44 +47,43 @@ git clone https://github.com/<your-username>/healthcare-backend.git
 
 ```
 
-```bash
 Navigate to project folder
----
+```bash
 cd healthcare-backend
 ```
 
-```bash
 Create a virtual environment
----
+```bash
 python -m venv venv
 ```
-```bash
+
 Activate the virtual environment (Linux/MacOS)
----
+```bash
 source venv/bin/activate
 ```
-```bash
+
 Activate the virtual environment (Windows PowerShell)
----
+```bash
 venv\Scripts\activate
 ```
-```bash
+
 Install dependencies
+```bash
 ---
 pip install -r requirements.txt
 ```
-```bash
+
 Apply migrations
----
+```bash
 python manage.py migrate
 ```
-```bash
+
 Create a superuser (optional, for admin access)
----
+```bash
 python manage.py createsuperuser
 ```
-```bash
+
 Run the development server
----
+```bash
 python manage.py runserver
 ```
